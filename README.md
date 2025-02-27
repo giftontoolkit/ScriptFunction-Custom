@@ -2,7 +2,7 @@
 
 ## Version 1 (v1)
 
-We add a function for smooth scrolling
+We added a function for smooth scrolling
 
 Ths `functions.php` is given in **v1** folder
 
@@ -10,7 +10,7 @@ We added below function in `functions.php`.
 
 ```ruby
 <?php
-// Enqueue Styles using mys2.css located in theme directory
+// Enqueue script-function
 function gifton_enqueue_assets_script() {
     // Inline JavaScript for smooth scrolling
     wp_add_inline_script('jquery', "
