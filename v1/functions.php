@@ -1,5 +1,5 @@
 <?php
-// Enqueue Styles using mys2.css located in theme directory
+// Enqueue script-function
 function gifton_enqueue_assets_script() {
     // Inline JavaScript for smooth scrolling
     wp_add_inline_script('jquery', "
