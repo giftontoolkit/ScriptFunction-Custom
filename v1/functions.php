@@ -1,14 +1,3 @@
-# Adding Custom Script-Functions using functions.php
-
-## Version 1 (v1)
-
-We add a function for smooth scrolling
-
-Ths `functions.php` is given in **v1** folder
-
-We added below function in `functions.php`.
-
-```ruby
 <?php
 // Enqueue Styles using mys2.css located in theme directory
 function gifton_enqueue_assets_script() {
@@ -34,4 +23,3 @@ function gifton_enqueue_assets_script() {
 add_action('wp_enqueue_scripts', 'gifton_enqueue_assets_script');
 
 ?>
-```
