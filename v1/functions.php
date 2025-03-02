@@ -1,6 +1,6 @@
 <?php
 // Enqueue script-function
-function gifton_enqueue_assets_script() {
+function myTM_enqueue_assets_script() {
     // Inline JavaScript for smooth scrolling
     wp_add_inline_script('jquery', "
         document.addEventListener('DOMContentLoaded', function() {
@@ -20,6 +20,6 @@ function gifton_enqueue_assets_script() {
         });
     ");
 }
-add_action('wp_enqueue_scripts', 'gifton_enqueue_assets_script');
+add_action('wp_enqueue_scripts', 'myTM_enqueue_assets_script');
 
 ?>
